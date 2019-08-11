@@ -1,11 +1,12 @@
 一、实现图片上传与回显的几个步骤：
     第一步：method="post" enctype="multipart/form-data"(编码格式)
-           这一步前端页面可用<from></form>实现，也可用html5，formData对象实现，
+           这一步前端页面可用<from  method="post" enctype="multipart/form-data"></form>实现，
+	   也可用html5，formData对象实现，
            如果用fromData对象方式提交参数，需注意：
            在Ajax提交时，需设置3个参数为false，
            cache: false, 
-			     contentType: false, //告诉jquery不设置内容类型
-			     processData: false, //告诉jquery不处理数据
+	   contentType: false, //告诉jquery不设置内容类型
+	   processData: false, //告诉jquery不处理数据
            <input type="file" name="picture" >
            当点击input文件框时，name获取图片对象，之后一起被提交到后台。
     
@@ -17,9 +18,12 @@
     
     第五步：jsp页面img标签的src属性通过访问虚拟目录中的图片，回显图片。
     
+    备注：这其中比较重要的两步：
+         1.获取服务部署路径+虚拟目录：String url = request.getSession().getServletContext().getRealPath("/upload");
+	 2.图片回显src属性值，通过访问虚拟目录下的图片，回显图片。
+   
     
-
-
+    
 
 
 
