@@ -16,7 +16,7 @@
     
     第四步：把新文件名+虚拟目录，保存入库
     
-    第五步：jsp页面img标签的src属性通过访问虚拟目录中的图片，回显图片。
+    第五步：jsp页面img标签的src属性通过访问虚拟目录下的图片，回显图片。
     
     备注：这其中比较重要的两步：
          1.获取服务部署路径+虚拟目录：String url = request.getSession().getServletContext().getRealPath("/upload");
