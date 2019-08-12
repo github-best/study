@@ -1,4 +1,4 @@
-一、实现图片上传与回显的几个步骤：
+一、实现单个图片上传与回显的几个步骤：
     第一步：method="post" enctype="multipart/form-data"(编码格式)
            这一步前端页面可用<from  method="post" enctype="multipart/form-data"></form>实现，
 	   也可用html5，formData对象实现，
@@ -28,6 +28,23 @@
             但需注意的是，path值前需加一个斜杠，document base磁盘路径，路径之间用一个反斜杠进行分割，
             网上的其他方式如在server.xml中对host标签添加其他配置，配置虚拟路径，
             经实际验证，在项目中并不能回显图片。
+	    
+	    
+二、多张图片如何实现批量上传?
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
    
     
     
