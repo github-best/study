@@ -1,8 +1,9 @@
-1.lombok安装及运用地址
-
-
-学习博客地址：
-https://blog.csdn.net/qq_25646191/article/details/79639633
+1.lombok安装步骤：
+  ①、下载 lombok.jar
+  ②、dos窗口运行 lombok.jar安装lombok，命令-----------------> java -jar  jar包名称
+  
+  
+  https://blog.csdn.net/qq_25646191/article/details/79639633
 
 
 
