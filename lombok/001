@@ -14,6 +14,8 @@
   参考博客地址：
   https://blog.csdn.net/qq_25646191/article/details/79639633
   https://blog.csdn.net/zhuiqiuzhuoyue583/article/details/81086519
+  
+  备注：lombok插件安装完后，在pojo类上加上@Data注解后，将自动添加set/get/toString()方法。
 
 
 
