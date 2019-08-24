@@ -2,8 +2,18 @@
   ①、下载 lombok.jar
   ②、dos窗口运行 lombok.jar安装lombok，命令-----------------> java -jar  jar包名称
   
+2.pom.xml文件中引入依赖：
+  如：
+     <dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.18</version>
+		</dependency>
   
+  
+  参考博客地址：
   https://blog.csdn.net/qq_25646191/article/details/79639633
+  https://blog.csdn.net/zhuiqiuzhuoyue583/article/details/81086519
 
 
 
